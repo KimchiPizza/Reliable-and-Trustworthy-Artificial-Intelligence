@@ -1,0 +1,17 @@
+# PyTorch 및 관련 라이브러리
+torch==2.0.1
+torchvision==0.15.2
+
+# 데이터 처리 및 시각화
+numpy==1.24.3
+matplotlib==3.7.1
+
+# 기타 설정 (재현성 보장)
+cudnn_deterministic=True
+cudnn_benchmark=False
+torch.manual_seed(12000) 
+
+# CIFAR-10 관련 사전 학습 모델 인용 정보
+ResNet-18 모델 출처: TorchVision (https://pytorch.org/vision/stable/models.html)
+논문: He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep Residual Learning for Image Recognition.
+URL: https://arxiv.org/abs/1512.03385
