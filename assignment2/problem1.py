@@ -205,7 +205,7 @@ def main():
     
     print("Training Model 2...")
     '''
-    현재 num_epochs = 0 으로 학습을 건너뜀.
+    현재 num_epochs = 2 으로 학습을 함.
     '''
     model2 = train_model(model2, trainloader, criterion, optimizer, device, num_epochs=2)
     model2.eval()
