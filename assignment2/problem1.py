@@ -207,7 +207,7 @@ def main():
     '''
     현재 num_epochs = 0 으로 학습을 건너뜀.
     '''
-    model2 = train_model(model2, trainloader, criterion, optimizer, device, num_epochs=0)
+    model2 = train_model(model2, trainloader, criterion, optimizer, device, num_epochs=2)
     model2.eval()
     
     # 학습된 모델 저장
