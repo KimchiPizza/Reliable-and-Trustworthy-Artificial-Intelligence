@@ -1,0 +1,6 @@
+model:
+  onnx_path: ../../vnncomp2021/benchmarks/oval21/nets/cifar_base_kw.onnx
+general:
+  root_path: ../../vnncomp2021/benchmarks/oval21/ 
+specification:
+  vnnlib_path: ../../vnncomp2021/benchmarks/oval21/vnnlib/cifar_base_kw-img1697-eps0.0014379084967320263.vnnlib
